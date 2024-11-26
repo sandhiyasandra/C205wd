@@ -1,0 +1,40 @@
+/* /* .flex{
+    display: flex;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    flex-direction: column;
+}
+.flex div{
+    padding: 10px;
+    background-color: black;
+    margin: 3px;
+} 
+.grid{
+    display: grid;
+    background-color: skyblue;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 20px;
+}
+.grid div{
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+
+div{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 15px 10px 5px  grey;
+}

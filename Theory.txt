@@ -1,0 +1,139 @@
+24-10-2024
+WEB DESIGNING
+
+Html--Hyper Text Markup Language
+
+Css--Cascading Style Sheet
+   3types
+   Inline
+   Internal
+   External
+
+Html--tags and attributes
+
+<opening tag>content</closing>
+
+Tags under head tag
+title--heading
+meta--page information
+Style--css
+link--css
+script--js
+
+h--heading---size 1-6 <h1></h1>
+p--paragraph<p></p>
+br-break<br>
+pre-preformatted tag<pre></pre>
+
+the tag which doesnot have closing tag is known as void tag.
+br--break
+meta
+link
+hr--horizontal line
+img--img
+
+Formatting tag
+<b>bold</b>
+    <strong>strong</strong> <br>
+    <i>italic</i>
+    <em>emphasis</em><br>
+    <u>underline</u>
+    <ins>inserted one</ins><br>
+    <del>deleted one</del> <br>
+    <mark>highlight</mark><br>
+     a<sup>2</sup> <!--superscript -->
+     a <sub>2</sub><!--sub script-->
+
+list,table,form,div,span
+list
+ol--ordered list---1,2,a,b
+ul--un oredered list--...,<<<
+li--list item
+dl--description list
+
+table
+tr--table row
+th--table heading 
+td--table data
+colspan--merge the column
+rowspan--merge the row
+
+form
+
+input:text
+input:number
+input:email
+input:password
+input:submit
+input:checkbox
+input:date
+input:radio
+
+placeholder
+checked
+name
+id
+value
+
+span---to style the particular thing.
+<p>hi this is <span id="one">so and so</span></p>
+
+div---to style the block of tags ,thing
+
+<div>
+<h1>hiii</h1>
+<p>dadas</p>
+</div>
+
+CSS--Cascading Style Sheet
+
+3types
+Inline--particular tag 
+Internal--block of code within the page itself
+External--block of code in other page
+
+selector
+
+tag
+class
+id 
+pseudoelement
+pseudo class
+
+combinator selector
+  descendant(space)
+  child(>)
+  next sibling(+)
+  subsequent-sibling(~)
+
+
+Text properties
+text-align: left;
+text-transform: capitalize;
+line-height: 40px;
+text-indent: 50px;
+text-decoration:none;
+
+color types
+color:rgb(10, 232, 10);
+color:green;
+color:#ff12ff;
+
+box model
+border-color: green;
+border-style: solid;
+border-width: 15px;
+
+or 
+
+border: green solid 5px;
+
+margin:20px;
+padding: 20px;
+border-radius: 25px;
+
+background properties
+background-image: url('minion.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;

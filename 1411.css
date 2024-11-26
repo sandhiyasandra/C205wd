@@ -1,0 +1,21 @@
+.para1{
+    background-color: blue;
+    color: wheat;
+}
+.para2{
+    background-color: green;
+    color: grey;
+}
+.para3{
+    background-color: brown;
+    color: coral;
+}
+@media print and (min-width:800px)
+{
+.para1,.para2,.para3{
+   background-color: none;
+}
+}
+.para1{
+    width: 100%;
+}

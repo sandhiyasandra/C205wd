@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+   <div class="container-fluid">
+    <!--Header Start-->
+    <div class="row mt-1">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg " data-bs-theme="dark" style="background-color:#3D9AD0 ;">
+              <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Ekart</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cart.html">Cart</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+     <!--Header end-->
+     <!--Main content start-->
+    <div class="row mt-3">
+        <div class="col-md-9">
+            <h4 class="bg-danger text-white p-1">Customer details</h4>
+            <table class="table table-borderless">
+                <tr>
+                    <th>Customer Name</th>
+                    <td>Sandhiya</td>
+                </tr>
+                <tr>
+                    <th>Mobile no</th>
+                    <td>9898989898</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>Sandhiya@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3">
+            <h4 class="bg-danger text-white p-1">Cart total</h4>
+            <table class="table table-borderless">
+                <tr>
+                    <th>Total item</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Total amount</th>
+                    <td>167000</td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-danger">Place order</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <h4 class="bg-danger text-white p-1">Cart details</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="minion.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <table class="table table-borderless">
+                            <tr>
+                                <th>Product name</th>
+                                <td>samsung</td>
+                            </tr>
+                            <tr>
+                                <th>Product price</th>
+                                <td>167000</td>
+                            </tr>
+                            <tr>
+                                <th>Quantity</th>
+                                <td><button class="btn btn-danger">-</button>
+                                    <input type="number" name="" id="">
+                                <button class="btn btn-success">+</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="btn btn-danger">Remove</button></td>
+                            </tr>
+                            </table>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+     <!--Main content end-->
+     <!--Footer Start-->
+    <div>
+
+    </div>
+     <!--footer end-->
+   </div> 
+</body>
+</html>
